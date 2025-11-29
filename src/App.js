@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "enter GET API endpoint"
+        "https://githubdemo-b0gqbbhehwhfcggj.canadacentral-01.azurewebsites.net/"
       )
       .then((response) => {
         console.log(response.data && response.data.recordset);
